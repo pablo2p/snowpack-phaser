@@ -68,7 +68,7 @@ export class Scene extends Phaser.Scene {
         x: centerX,
         y: centerY - 50,
         text: "Loading",
-        style: { color: "#ffffff" },
+        style: { fill: "#ffffff" },
       })
       .setOrigin(0.5, 0.5);
 
@@ -77,7 +77,7 @@ export class Scene extends Phaser.Scene {
         x: centerX,
         y: centerY + boxHeight,
         text: "0%",
-        style: { color: "#ffffff" },
+        style: { fill: "#ffffff" },
       })
       .setOrigin(0.5, 0.5);
 
