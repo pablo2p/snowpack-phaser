@@ -2,7 +2,7 @@
 export default {
   mount: {
     public: "/",
-    src: "/_dist_",
+    src: "/dist",
   },
   plugins: [],
   optimize: {
